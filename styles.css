@@ -1,16 +1,20 @@
 
-table{
-	border:1px solid powderblue;
-	border-radius:10px:
-	text-align: left;
-	text-color:white;
-	width: 100%;
+
+div{
+	box-shadow: 1px 1px 1px grey;
 }
-thead{
-	background_color:#3063a1;
+table{
+	border:1px #dcdcdc;
+	border-radius: 20px;
+	text-align: left ;
+	
+}
+th{
+	background-color: #3063a1 ;
+	border: none ;
+	margin:none;
+	text-color: #ffffff;
 }
 tr:nth-child(even){
-	background_color:hsl(0, 0%, 90%);
-	
-	
+	background-color:#dcdcdc;
 }
