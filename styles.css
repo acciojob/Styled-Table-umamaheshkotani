@@ -1,5 +1,14 @@
 /* your code */
 table{
-	border: 1;
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+thead{
+	background_color:#3063a1;
+}
+tr:nth-child(even){
+	background_color:hsl(0, 0%, 90%);
+	
 	
 }
