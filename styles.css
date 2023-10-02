@@ -1,18 +1,14 @@
-
-
-div{
-	box-shadow: 1px 1px 1px grey;
-}
 table{
-	border:1px #dcdcdc;
-	border-radius: 20px;
+	border:1px  grey;
+	border-collapse: collapse;
 	text-align: left ;
-	
+}
+thead{
+    background-color: #3063a1 ;
+}
+tbody{
 }
 th{
-	background-color: #3063a1 ;
-	border: none ;
-	margin:none;
 	text-color: #ffffff;
 }
 tr:nth-child(even){
